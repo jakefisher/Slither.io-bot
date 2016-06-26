@@ -403,6 +403,9 @@ var bot = window.bot = (function() {
 
             bot.isBotRunning = false;
             window.forcing = true;
+            window.bso.ip = "46.4.72.81";
+            window.bso.po = "444";
+        // Begin global connect method.
             window.connect();
             window.forcing = false;
         },
